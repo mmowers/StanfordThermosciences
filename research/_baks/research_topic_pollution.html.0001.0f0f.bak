@@ -1,0 +1,104 @@
+<?php
+$selected="groups";// First Level
+$subnav="thermo";// Second Level
+$dir="../../../";
+$title="Thermosciences Group: Research";
+$keywords="Design Division: Industrial Affiliates";
+$description="";
+$videomoo='1';
+// NOT PHP TO EDIT BELOW THIS LINE
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- InstanceBegin template="/Templates/current.dwt" codeOutsideHTMLIsLocked="false" -->
+<!-- Begin head -->
+<head>
+<!-- InstanceBeginEditable name="head" -->
+<?php include ("{$dir}includes/head.php") ?>
+<!-- InstanceEndEditable -->
+</head>
+<!-- End head -->
+<body>
+<div id="wrapper">
+  <div id="bodyContainer">
+    <div id="sideNav"> <img src="<?php echo $dir ?>images/top_side_nav.gif" width="234" height="40" alt="" id="snav" /> <a href="<?php echo $dir ?>index.html"><img src="<?php echo $dir ?>images/logo.gif" width="145" height="64" id="logo" alt="Stanford Engineering" /></a> </div>
+    <!-- Begin #mainGlobal -->
+    <div id="mainGlobal" class="stanfordEngineering">
+      <!-- Begin header -->
+      <?php include ("{$dir}includes/header.php") ?>
+      <!-- End header -->
+      <?php include ("{$dir}groups/thermo/research/includes/banners.php") ?>
+      <!-- BEGIN CONTENT -->
+      <div id="content"> <!-- InstanceBeginEditable name="body" -->
+        <!-- Begin Left Wrapper -->
+						<div id="mainNavWrapper">
+							<?php include("{$dir}groups/thermo/includes/topNav.php") ?>
+							<img src="../images/main_line.gif" id="mainLine" alt="" />
+						</div>
+        <div id="leftWrapper">
+          <h1>Research Projects in Pollution Technology</h1>
+
+			<p><a href="#KINETICS">[Kinetics]</a> <a href="#NOX">[NOX Removal]</a><a name="KINETICS" id="KINETICS"></a>
+<ul><li>
+<ol><li>
+
+                                <p><strong>Pollution Kinetics</strong> This program comprises several   experimental studies of the chemical reaction mechanisms for formation and   removal of NOx, a major pollutant, in combustion processes. Studies   are carried out using shock wave heating to prepare the gaseous samples and   laser diagnostics to probe the temporal evolution of critical species. In   addition, we are studying reactions of HNCO, a compound that can be injected   into flue gases to remove NOx.          </p>
+
+                                </li>
+
+                              <li>
+
+                                <p><strong><a name="NOX" id="NOX"></a>After-Treatment Methods for NOx Removal from   Combustion Products</strong> This project is focused on investigation of various   chemical processes for removal of NOx from combustion gases by the   injection of nitrogen-containing additives. These additives imitate a gas-phase   reaction sequence that converts NOx to N2. Of particular   interest is the performance of the process at elevated pressures, such as found   in gas turbines and Diesel engines.                                </p>
+
+                              </li>
+            </ol>
+            </li>
+            </ul>
+
+                            <p>A list of current and recent projects in Pollution Sciences   along with the name of the faculty and Ph.D students involved is given here.   (The last item is the name of the sponsor.)            </p>
+
+                            <p><a href="http://soex.stanford.edu/MEsite/layout.php?sunetid=ctbowman"><strong>Prof. Tom Bowman</strong></a></p>
+
+                            <p>Schmidt, Chad and Kemal, Abid &quot;Reduction of NOx and CO emission   from naval powerplants&quot;: ONR</p>
+
+                            <p><a href="http://hanson.stanford.edu/" target="_blank"><strong>Prof. Ron   Hanson</strong></a></p>
+
+                            <p>Furlong, Edward &quot;Diode-laser sensor system for real-time in-situ monitoring   and control&quot;: ONR (SERDP)</p>
+
+                            <p>Mihalcea, Radu &quot;Muliplexed diode-laser sensor system for simultaneous   measurements of CO, NO, CO2, and NO2&quot;: SERDP, AFOSR</p>
+
+                            <p>Webber, Michael &quot;Diode-laser sensor system for real-time in-situ monitoring   and control&quot;: ONR (SERDP)</p>
+
+                            <p><a href="../research.html">Back to Research Topics</a><br />
+                            </p>
+
+        </div>
+        <!-- Start Right Wrapper -->
+		<?php include ("{$dir}groups/thermo/research/includes/sidebar.php") ?>
+        <!-- InstanceEndEditable -->
+        <!-- End Right Wrapper -->
+      </div>
+      <!-- END CONTENT -->
+    </div>
+    <!-- End #mainGlobal -->
+    <div id="footerGlobal">
+      <!--Begin Footer -->
+      <?php include ("{$dir}includes/footer.php") ?>
+      <!--End Footer -->
+    </div>
+    <!-- end sideNav & full Body -->
+    <!--End container -->
+    <!-- Begin Top Nav -->
+    <?php include ("{$dir}includes/topSideNav.php") ?>
+    <!-- End Top Nav -->
+    <!-- Begin Left Nav -->
+    <?php include ("{$dir}includes/leftSideNav.php") ?>
+    <!-- End Left Nav -->
+    <div id="seal"></div>
+  </div>
+</div>
+<!--wrapper-->
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/includes/analytics.php" ?>
+</body>
+<!-- InstanceEnd -->
+</html>

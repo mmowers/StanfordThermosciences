@@ -1,0 +1,161 @@
+<?php
+$selected="groups";// First Level
+$subnav="thermo";// Second Level
+$dir="../../../";
+$title="Thermosciences Group: Research";
+$keywords="Design Division: Industrial Affiliates";
+$description="";
+$videomoo='1';
+// NOT PHP TO EDIT BELOW THIS LINE
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- InstanceBegin template="/Templates/current.dwt" codeOutsideHTMLIsLocked="false" -->
+<!-- Begin head -->
+<head>
+<!-- InstanceBeginEditable name="head" -->
+<?php include ("{$dir}includes/head.php") ?>
+<!-- InstanceEndEditable -->
+</head>
+<!-- End head -->
+<body>
+<div id="wrapper">
+  <div id="bodyContainer">
+    <div id="sideNav"> <img src="<?php echo $dir ?>images/top_side_nav.gif" width="234" height="40" alt="" id="snav" /> <a href="<?php echo $dir ?>index.html"><img src="<?php echo $dir ?>images/logo.gif" width="145" height="64" id="logo" alt="Stanford Engineering" /></a> </div>
+    <!-- Begin #mainGlobal -->
+    <div id="mainGlobal" class="stanfordEngineering">
+      <!-- Begin header -->
+      <?php include ("{$dir}includes/header.php") ?>
+      <!-- End header -->
+      <?php include ("{$dir}groups/thermo/research/includes/banners.php") ?>
+      <!-- BEGIN CONTENT -->
+      <div id="content"> <!-- InstanceBeginEditable name="body" -->
+        <!-- Begin Left Wrapper -->
+						<div id="mainNavWrapper">
+							<?php include("{$dir}groups/thermo/includes/topNav.php") ?>
+							<img src="../images/main_line.gif" id="mainLine" alt="" />
+						</div>
+        <div id="leftWrapper">
+          <h1>Research Project in Material Synthesis and Processing</h1>
+
+			<p><a href="#PLASMA">[Plasma Synthesis]</a> <a href="#COMBUSTION">[Combustion Synthesis]</a> <a href="#VAPOR">[Vapor Synthesis]</a></p>
+
+ <p><a name="PLASMA" id="PLASMA"></a>Plasma Synthesis
+ of Materials Plasmas (both low and atmospheric
+ pressure) can be used as a rich source of reactive
+ radical species which can interact with surfaces
+ to either transport condensable species (plasma
+ deposition) or modify microstructure and composition
+ (etching). This heterogeneous chemistry can result
+ in the synthesis of highly valuable metastable
+ solid phases such as diamond, the deposition of
+ thin insulating films on silicon, or the etching
+ of silicon to form microelectronic features . We
+ have ongoing experimental and theoretical programs
+ that involve the study of the basic gas-phase and
+ surface mechanisms responsible for diamond synthesis,
+ the synthesis and deposition of both thin film
+ oxides, nitrides, and refractory metals, and the
+ etching of silicon. Facilities include atmospheric
+ pressure RF and DC arc sources, low pressure arcjets,
+ RF and microwave glow discharges, and a spark ablation
+ reactor. A major emphasis is on the diagnostics
+ of the gas phase and surface during deposition
+ on and etching, using laser-induced fluorescence
+ and degenerate four-wave mixing spectroscopies. </p>
+ <p><a name="COMBUSTION" id="COMBUSTION"></a>Combustion
+ Synthesis of Diamond The use of combustion sources
+ in the synthesis of diamond is becoming increasingly
+ more popular. Combustion synthesis provides a number
+ of advantages over plasma technologies in the growth
+ of diamond films. An improved understanding of
+ the flame and heterogeneous chemistry under very
+ fuel rich conditions will provide the basis for
+ future reactor designs. We have ongoing experimental
+ and theoretical programs to study diamond synthesis
+ in low pressure flames. </p>
+ <p><a name="VAPOR" id="VAPOR"></a>Vapor
+ Synthesis Processes in Microelectronic Device Fabrication
+ The fabrication of microscopic features on silicon
+ in the production of microelectronic devices requires
+ an improved understanding of the transport and
+ reactivity of gas-phase species in microscopic
+ vias and trenches. In the synthesis of insulating
+ layers such as silicon dioxide on patterned silicon,
+ for example, or in the fabrication of metal interconnects,
+ it is important to successfully predict the deposit
+ profile evolution. As scale lengths in emerging
+ technologies get smaller (&lt;1 mm), the flow of
+ species within such structures is essentially free
+ molecular. We have an ongoing program that involves
+ the detailed modeling of the transport and synthesis
+ of thin films in such microsc opic structures.
+ Emphasis is placed on the coupling of the transport
+ to detailed surface chemistry, and the numerical
+ techniques employed to accommodate a continuously
+ evolving surface. </p>
+ <p>A list of current and recent projects in Material
+ Synthesis and Processing along with the name of
+ the faculty and Ph.D students involved is given
+ here. (The last item is the name of the sponsor.) </p>
+ <p><a href="http://soex.stanford.edu/MEsite/layout.php?sunetid=cap"><strong>Prof. Mark Cappelli</strong></a></p>
+
+ <p>Dr. Joongsoo Kim, Jin Seok Ji, &quot;Diagnostics for Plasma Enhanced Chemical Vapor Deposition and Etch Systems&quot;, NASA</p>
+
+ <p>Darren Berns, Katrin Schwendner, &quot;Low Density Impinging Reacting Plasma Jets for Thin Film Synthesis,&quot; NSF</p>
+
+ <p>Michael Loh, Alan Kull, &quot;Low Temperature, Large Area Synthesis of Diamond Films using DC Arcjet Plasmas,&quot; Daimler-Benz Corporation</p>
+
+ <p>Alex Glew, &quot;RF Plasma Synthesis of Diamond-Like Carbon Films on Video Tape Recorder Heads&quot;, LG Electronics Inc.</p>
+
+ <p>Scott Crawford, &quot;Synthesis of Advanced Substrates for Packaging of Power Electronic Devices&quot; SIMA, OTL, CIS</p>
+
+ <p><a href="http://hanson.stanford.edu/" target="_blank"><strong>Prof. Ron Hanson</strong></a></p>
+
+ <p>Choi, Carlson &quot;Multiplexed diode-laser absorption sensors for semiconductor process control&quot;: SIMA/CIS</p>
+
+ <p>Chou, Shang-I &quot;Multiplexed diode-laser absorption sensors for semiconductor process control&quot;: SIMA/CIS</p>
+
+ <p>Stouklov, Igor &quot;CFx diagnostics with cavity ring-down spectroscopy&quot;: LamResearch Inc.</p>
+
+ <p><a href="http://soex.stanford.edu/MEsite/layout.php?sunetid=kruger"><strong>Prof. Charles Kruger</strong></a></p>
+
+ <p>Dr. Thomas G. Owano, Edward H. Wahl, Hugh T. Stinnette &quot;Nonequilibrium Plasma Chemistry'': Department of Energy</p>
+
+ <p>Dr. Thomas G. Owano, Maosheng Zhao &quot;Atmospheric Pressure Plasma Chemical Vapor Deposition'': Engineering Research Center for Plasma-Aided Manufacturing</p>
+
+ <p>Dr. Thomas G. Owano, Maosheng Zhao &quot;Nonequilibrium Plasma Processing of Advanced Materials'': National Science Foundation</p>
+
+ <a href="../research.html">Back to Research Topics</a><br />
+ <p></p>
+
+        </div>
+        <!-- Start Right Wrapper -->
+		<?php include ("{$dir}groups/thermo/research/includes/sidebar.php") ?>
+        <!-- InstanceEndEditable -->
+        <!-- End Right Wrapper -->
+      </div>
+      <!-- END CONTENT -->
+    </div>
+    <!-- End #mainGlobal -->
+    <div id="footerGlobal">
+      <!--Begin Footer -->
+      <?php include ("{$dir}includes/footer.php") ?>
+      <!--End Footer -->
+    </div>
+    <!-- end sideNav & full Body -->
+    <!--End container -->
+    <!-- Begin Top Nav -->
+    <?php include ("{$dir}includes/topSideNav.php") ?>
+    <!-- End Top Nav -->
+    <!-- Begin Left Nav -->
+    <?php include ("{$dir}includes/leftSideNav.php") ?>
+    <!-- End Left Nav -->
+    <div id="seal"></div>
+  </div>
+</div>
+<!--wrapper-->
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/includes/analytics.php" ?>
+</body>
+<!-- InstanceEnd -->
+</html>

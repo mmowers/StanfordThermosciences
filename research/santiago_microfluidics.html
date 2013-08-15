@@ -1,0 +1,84 @@
+<?php
+$selected="groups";// First Level
+$subnav="thermo";// Second Level
+$dir="../../../";
+$title="Thermosciences Group: Research";
+$keywords="Design Division: Industrial Affiliates";
+$description="";
+$videomoo='1';
+// NOT PHP TO EDIT BELOW THIS LINE
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- InstanceBegin template="/Templates/current.dwt" codeOutsideHTMLIsLocked="false" -->
+<!-- Begin head -->
+<head>
+<!-- InstanceBeginEditable name="head" -->
+<?php include ("{$dir}includes/head.php") ?>
+<!-- InstanceEndEditable -->
+</head>
+<!-- End head -->
+<body>
+<div id="wrapper">
+  <div id="bodyContainer">
+    <div id="sideNav"> <img src="<?php echo $dir ?>images/top_side_nav.gif" width="234" height="40" alt="" id="snav" /> <a href="<?php echo $dir ?>index.html"><img src="<?php echo $dir ?>images/logo.gif" width="145" height="64" id="logo" alt="Stanford Engineering" /></a> </div>
+    <!-- Begin #mainGlobal -->
+    <div id="mainGlobal" class="stanfordEngineering">
+      <!-- Begin header -->
+      <?php include ("{$dir}includes/header.php") ?>
+      <!-- End header -->
+      <?php include ("{$dir}groups/thermo/research/includes/banners.php") ?>
+      <!-- BEGIN CONTENT -->
+      <div id="content"> <!-- InstanceBeginEditable name="body" -->
+        <!-- Begin Left Wrapper -->
+						<div id="mainNavWrapper">
+							<?php include("{$dir}groups/thermo/includes/topNav.php") ?>
+							<img src="../images/main_line.gif" id="mainLine" alt="" />
+						</div>
+        <div id="leftWrapper">
+          <h1>Featured Research Project</h1>
+
+          <h3>Making Shock Waves in Microfluidics</h3>
+<p>Juan G. Santiago, Stanford University</p>
+
+<p><strong>Background:</strong>  Microfluidics lies at the interface between engineering, chemistry, and biology, and aims to develop chemical laboratories on a chip.  Applications include drug discovery efforts, biomedical devices, genetics, and biological weapon detection.  One important class of these are on-chip capillary electrophoresis devices which have been applied to a wide range of chemical and biochemical assay applications over the last decade.  The achievement of robust, cheap, and portable devices for the detection of low analyte concentrations (e.g., < 100 picomolar), however, remains a crucial challenge in the field.   Widely proliferated, batch-fabricated high-sensitivity devices should have low limits of detection, but also have low-cost detectors such as cheap optics or microfabricated electrochemical sensors.  </p>
+
+<p><strong>Project description:</strong>  Perhaps the best way of improving the sensitivity of on-chip electrophoresis is to integrate an online sample preconcentration method; this offers higher sensitivity, higher resolution, and sample injection schemes more robust to flow control errors.  At Stanford, we are developing methods to concentrate ions into small spaces using a method called isotachophoresis (ITP).  We use ITP to create sample ion concentration shock waves in microchannels.   These shock waves can be easily integrated with on-chip electrophoresis to provide high sensitivity assays.  </p>
+
+<p>ITP concentrates ions at an electrolyte-electrolyte interface.   We sandwhich sample ions between a leading electrolyte (LE) with relatively high mobility ions and a trailing electrolyte (TE) with low mobility ions.  Upon application of up to 3 kV/cm electric fields, disparate mobilities of LE and TE ions cause sample ions to focus within a narrow, self-sharpening zone between them and then migrate at the same velocity (hence ìisotachoÅE.  The figure below shows an image of one of these electrophoretic shocks and sample data in 50 by 20 mm (cross section) channels.  Shock widths range from 1 to 20 mm widths.  After preconcentration in this fashion, we terminate the ITP process by injecting LE ions (from the upstream side of the shock) and thereby initiate electrophoretic separation.</p>
+
+<p><strong><em>Contributions:</em></strong>  We have optimized ITP stacking by using a novel sample injection protocol for ITP, by minimizing dispersion caused by non-uniform electroosmosis, and leveraging the high electric fields made possible by high surface-to-volume ratios of microfabricated channels.   Other than this work, the highest reported signal enhancement factor using any electromigration-based method was typically limited to 500-fold for microchip experiments and 5,500-fold for free-standing capillaries.  We are now able to concentrate ionic samples by more than a factor of a million in less than 120 s.  We can inject, concentrate, and detect initial sample concentrations of less than 100 fM concentrations in one minute.  These are by far the highest sensitivity electrophoresis assays ever demonstrated, and have our approach has the potential to become the next generation preconcentration method for on-chip electrophoresis.  We have also applied our method successfully to the analysis of various analytes including water soluble organic ions and single and double stranded DNA.  In collaboration with the Prof. PJ Utz of the Stanford Medical school, we are also applying this technology as part of a multi-disciplinary study of autoimmune disease markers at trace concentrations. </p>
+
+          <img src="../images/santiago_projectimage.jpg" border="0" />
+
+<p>Image of on-chip ITP assay showing regions of TE and LE, and sample (alexafluor 488 ions) compressed into a concentration shock wave 5 microns wide.</p>
+        </div>
+        <!-- Start Right Wrapper -->
+		<?php include ("{$dir}groups/thermo/research/includes/sidebar.php") ?>
+        <!-- InstanceEndEditable -->
+        <!-- End Right Wrapper -->
+      </div>
+      <!-- END CONTENT -->
+    </div>
+    <!-- End #mainGlobal -->
+    <div id="footerGlobal">
+      <!--Begin Footer -->
+      <?php include ("{$dir}includes/footer.php") ?>
+      <!--End Footer -->
+    </div>
+    <!-- end sideNav & full Body -->
+    <!--End container -->
+    <!-- Begin Top Nav -->
+    <?php include ("{$dir}includes/topSideNav.php") ?>
+    <!-- End Top Nav -->
+    <!-- Begin Left Nav -->
+    <?php include ("{$dir}includes/leftSideNav.php") ?>
+    <!-- End Left Nav -->
+    <div id="seal"></div>
+  </div>
+</div>
+<!--wrapper-->
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/includes/analytics.php" ?>
+</body>
+<!-- InstanceEnd -->
+</html>

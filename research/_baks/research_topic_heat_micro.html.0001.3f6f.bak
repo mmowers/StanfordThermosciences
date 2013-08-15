@@ -1,0 +1,83 @@
+<?php
+$selected="groups";// First Level
+$subnav="thermo";// Second Level
+$dir="../../../";
+$title="Thermosciences Group: Research";
+$keywords="Design Division: Industrial Affiliates";
+$description="";
+$videomoo='1';
+// NOT PHP TO EDIT BELOW THIS LINE
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- InstanceBegin template="/Templates/current.dwt" codeOutsideHTMLIsLocked="false" -->
+<!-- Begin head -->
+<head>
+<!-- InstanceBeginEditable name="head" -->
+<?php include ("{$dir}includes/head.php") ?>
+<!-- InstanceEndEditable -->
+</head>
+<!-- End head -->
+<body>
+<div id="wrapper">
+  <div id="bodyContainer">
+    <div id="sideNav"> <img src="<?php echo $dir ?>images/top_side_nav.gif" width="234" height="40" alt="" id="snav" /> <a href="<?php echo $dir ?>index.html"><img src="<?php echo $dir ?>images/logo.gif" width="145" height="64" id="logo" alt="Stanford Engineering" /></a> </div>
+    <!-- Begin #mainGlobal -->
+    <div id="mainGlobal" class="stanfordEngineering">
+      <!-- Begin header -->
+      <?php include ("{$dir}includes/header.php") ?>
+      <!-- End header -->
+      <?php include ("{$dir}groups/thermo/research/includes/banners.php") ?>
+      <!-- BEGIN CONTENT -->
+      <div id="content"> <!-- InstanceBeginEditable name="body" -->
+        <!-- Begin Left Wrapper -->
+						<div id="mainNavWrapper">
+							<?php include("{$dir}groups/thermo/includes/topNav.php") ?>
+							<img src="../images/main_line.gif" id="mainLine" alt="" />
+						</div>
+        <div id="leftWrapper">
+          <h1>Research Projects in Computational and Experimental Heat Transfer</h1>
+          <p>A list of current and recent projects in Computational and Experimental Heat Transfer along with the name of the faculty and Ph.D students involved is given here. (The last item is the name of the sponsor.)</p>
+          <p><a href="http://soex.stanford.edu/MEsite/layout.php?sunetid=rmoffat"><strong>Prof. Robert Moffat</strong></a></p>
+
+<p>------ "Neonatal transepidermal water loss" (with Drs. Ron Ariagno and Steve Glotzbach, S.U. Dept of Pediatrics): NIH</p>
+
+<p>Batchelder, Keith "The effects of high free-stream turbulence on heat transfer: scale and intensity variations":</p>
+
+<p>Mukerji, Debjit "Convective heat transfer from small heated patches" (with Prof. Eaton): General Electric</p>
+
+<p>Ohline, Matt "Light-off characteristics of Palladium exhaust-gas reactors": Delphi</p>
+
+<p>--------- "Package-level thermal management using novel micromachined structures" (with Prof. Goodson): SRC</p>
+<a href="../research.html">Back to Research Topics</a>
+
+        </div>
+        <!-- Start Right Wrapper -->
+		<?php include ("{$dir}groups/thermo/research/includes/sidebar.php") ?>
+        <!-- InstanceEndEditable -->
+        <!-- End Right Wrapper -->
+      </div>
+      <!-- END CONTENT -->
+    </div>
+    <!-- End #mainGlobal -->
+    <div id="footerGlobal">
+      <!--Begin Footer -->
+      <?php include ("{$dir}includes/footer.php") ?>
+      <!--End Footer -->
+    </div>
+    <!-- end sideNav & full Body -->
+    <!--End container -->
+    <!-- Begin Top Nav -->
+    <?php include ("{$dir}includes/topSideNav.php") ?>
+    <!-- End Top Nav -->
+    <!-- Begin Left Nav -->
+    <?php include ("{$dir}includes/leftSideNav.php") ?>
+    <!-- End Left Nav -->
+    <div id="seal"></div>
+  </div>
+</div>
+<!--wrapper-->
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/includes/analytics.php" ?>
+</body>
+<!-- InstanceEnd -->
+</html>
